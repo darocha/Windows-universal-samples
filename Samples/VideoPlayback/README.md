@@ -1,3 +1,13 @@
+---
+topic: sample
+languages:
+- csharp
+- js
+products:
+- windows
+- uwp
+---
+
 <!---
   category: AudioVideoAndCamera
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620020
@@ -31,6 +41,7 @@ Specifically, this sample covers:
 
 [VideoPlaybackSynchronization sample](/Samples/VideoPlaybackSynchronization)  
 [XamlCustomMediaTransportControls sample](/Samples/XamlCustomMediaTransportControls)  
+[360VideoPlayback sample](/Samples/360VideoPlayback)  
 
 ### Reference
 

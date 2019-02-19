@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{afbe3775-ed39-59ec-8159-ab5add9662c1}</ProjectGuid>
+    <ProjectGuid>{bdee0664-6313-530a-a5ee-1c7e9609775b}</ProjectGuid>
     <RootNamespace>SDKTemplate</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -157,6 +157,9 @@
     <ClInclude Include="Scenario4_SaveFile.xaml.h">
       <DependentUpon>..\shared\Scenario4_SaveFile.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="Scenario5_TriggerCFU.xaml.h">
+      <DependentUpon>..\shared\Scenario5_TriggerCFU.xaml</DependentUpon>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="..\..\..\SharedContent\xaml\App.xaml">
@@ -172,6 +175,7 @@
     <Page Include="..\..\..\SharedContent\xaml\Styles.xaml">
       <Link>Styles\Styles.xaml</Link>
     </Page>
+    <Page Include="..\shared\Scenario5_TriggerCFU.xaml" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -205,6 +209,9 @@
     </ClCompile>
     <ClCompile Include="Scenario4_SaveFile.xaml.cpp">
       <DependentUpon>..\shared\Scenario4_SaveFile.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="Scenario5_TriggerCFU.xaml.cpp">
+      <DependentUpon>..\shared\Scenario5_TriggerCFU.xaml</DependentUpon>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

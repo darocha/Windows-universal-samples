@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0E56167D-99D6-5CBB-9112-D6A6B92F4821}</ProjectGuid>
+    <ProjectGuid>{7ADDF42E-3F12-5FD9-A76C-3E841A12292E}</ProjectGuid>
     <RootNamespace>SDKTemplate</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -252,23 +252,29 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\microsoftLogo.scale-100.png">
+    <Image Include="..\shared\assets\microsoftLogo.scale-100.png">
       <Link>Assets\microsoftLogo.scale-100.png</Link>
     </Image>
-    <Image Include="Assets\microsoftLogo.scale-140.png">
+    <Image Include="..\shared\assets\microsoftLogo.scale-140.png">
       <Link>Assets\microsoftLogo.scale-140.png</Link>
     </Image>
-    <Image Include="Assets\microsoftLogo.scale-180.png">
+    <Image Include="..\shared\assets\microsoftLogo.scale-180.png">
       <Link>Assets\microsoftLogo.scale-180.png</Link>
     </Image>
-    <Image Include="Assets\visualStudioLogo.scale-100.png">
+    <Image Include="..\shared\assets\microsoftLogo.scale-200.png">
+      <Link>Assets\microsoftLogo.scale-200.png</Link>
+    </Image>
+    <Image Include="..\shared\assets\visualStudioLogo.scale-100.png">
       <Link>Assets\visualStudioLogo.scale-100.png</Link>
     </Image>
-    <Image Include="Assets\visualStudioLogo.scale-140.png">
+    <Image Include="..\shared\assets\visualStudioLogo.scale-140.png">
       <Link>Assets\visualStudioLogo.scale-140.png</Link>
     </Image>
-    <Image Include="Assets\visualStudioLogo.scale-180.png">
+    <Image Include="..\shared\assets\visualStudioLogo.scale-180.png">
       <Link>Assets\visualStudioLogo.scale-180.png</Link>
+    </Image>
+    <Image Include="..\shared\assets\visualStudioLogo.scale-200.png">
+      <Link>Assets\visualStudioLogo.scale-200.png</Link>
     </Image>
     <Image Include="..\..\..\SharedContent\media\microsoft-sdk.png">
       <Link>Assets\microsoft-sdk.png</Link>

@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- js
+products:
+- windows
+- uwp
+---
+
+<!---
   category: IdentitySecurityAndEncryption
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620622
 --->
@@ -44,9 +55,11 @@ To configure Google OAuth connections (Google Apps and Google) you will need to 
 
 To configure Facebook OAuth connections you will have to register as a Facebook Developer
 - [Becoming a Facebook Developer](https://developers.facebook.com/apps)
+- [More detailed instructions](https://github.com/Microsoft/Windows-universal-samples/issues/618)
 
 To configure Twitter OAuth connections you will have to register an application with Twitter
 - [xAuth for OAuth access to Twitter APIs](https://dev.twitter.com/oauth/xauth)
+- [More detailed instructions](https://github.com/Microsoft/Windows-universal-samples/issues/618)
 
 To configure Flickr OAuth connections you will have to register an application with Flickr
 - [Flickr API Keys Documentation](https://www.flickr.com/services/api/misc.api_keys.html)

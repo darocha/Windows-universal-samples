@@ -4,15 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{485B6BBC-EDC7-565C-8817-D8767BAD96AC}</ProjectGuid>
+    <ProjectGuid>{39EA7F8F-EBF4-5706-9CA7-083D99F902D4}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SDKTemplate</RootNamespace>
     <AssemblyName>ShareSource</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
@@ -87,9 +87,6 @@
     <Prefer32Bit>true</Prefer32Bit>
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="project.json" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\..\SharedContent\cs\App.xaml.cs">
       <Link>App.xaml.cs</Link>
@@ -220,6 +217,9 @@
     <Content Include="..\shared\assets\microsoftLogo.scale-180.png">
       <Link>Assets\microsoftLogo.scale-180.png</Link>
     </Content>
+    <Content Include="..\shared\assets\microsoftLogo.scale-200.png">
+      <Link>Assets\microsoftLogo.scale-200.png</Link>
+    </Content>
     <Content Include="..\shared\assets\visualStudioLogo.scale-100.png">
       <Link>Assets\visualStudioLogo.scale-100.png</Link>
     </Content>
@@ -228,6 +228,9 @@
     </Content>
     <Content Include="..\shared\assets\visualStudioLogo.scale-180.png">
       <Link>Assets\visualStudioLogo.scale-180.png</Link>
+    </Content>
+    <Content Include="..\shared\assets\visualStudioLogo.scale-200.png">
+      <Link>Assets\visualStudioLogo.scale-200.png</Link>
     </Content>
     <Content Include="..\..\..\SharedContent\media\microsoft-sdk.png">
       <Link>Assets\microsoft-sdk.png</Link>
@@ -250,6 +253,11 @@
     <Content Include="..\..\..\SharedContent\media\windows-sdk.png">
       <Link>Assets\windows-sdk.png</Link>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>5.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

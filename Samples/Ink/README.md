@@ -1,4 +1,13 @@
-﻿<!---
+---
+topic: sample
+languages:
+- js
+products:
+- windows
+- uwp
+---
+
+<!---
   category: CustomUserInteractions Inking
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620554
 --->
@@ -23,6 +32,7 @@ Specifically, this sample covers using the [Windows.UI.Input.Inking](http://msdn
 -   Delete ink strokes
 -   Recognize handwriting from ink strokes
 -   Search for a string within recognition results
+-   Obtain the InkPresenter for a canvas
 
 **Note**  Read the following instructions before using the app.
 

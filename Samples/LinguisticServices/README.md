@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- cpp
+products:
+- windows
+- uwp
+---
+
 <!---
   category: GlobalizationAndLocalization
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620562
@@ -5,7 +14,7 @@
 
 # Linguistic services sample
 
-Shows how to use [Extended Linguistic Services (ELS)](http://msdn.microsoft.com/library/windows/apps/dd317839) in a Windows Store app.
+Shows how to use [Extended Linguistic Services (ELS)](http://msdn.microsoft.com/library/windows/apps/dd317839).
 
 > **Note:** This sample is part of a large collection of UWP feature samples. 
 > If you are unfamiliar with Git and GitHub, you can download the entire collection as a 

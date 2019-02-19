@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- uwp
+---
+
 <!---
   category: Communications
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=626688
@@ -51,6 +60,8 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 [DataReaderWriter sample](../DataReaderWriter)  
 [DeviceEnumeration sample](../DeviceEnumerationAndPairing)  
 [StreamSocket sample](../StreamSocket)  
+[Hue Lights sample](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
+show, among other things, turning on the lights when the mobile phone enters Bluetooth range.  
 
 ### Reference
 

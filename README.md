@@ -14,7 +14,7 @@ This repo contains the samples that demonstrate the API usage patterns for the U
 
 ## Universal Windows Platform development
 
-These samples require Visual Studio 2017 and the Windows Software Development Kit (SDK) for Windows 10 to build, test, and deploy your Universal Windows Platform apps.
+These samples require Visual Studio 2017 Update 4 or higher and the Windows Software Development Kit (SDK) version 17134 for Windows 10.
 
    [Get a free copy of Visual Studio 2017 Community Edition with support for building Universal Windows Platform apps](http://go.microsoft.com/fwlink/p/?LinkID=280676)
 
@@ -67,44 +67,49 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
 
 <table>
  <tr>
+  <td><a href="Samples/360VideoPlayback">360-degree video playback</a></td>
   <td><a href="Samples/AdaptiveStreaming">Adaptive streaming</a></td>
   <td><a href="Samples/CameraAdvancedCapture">Advanced capture</a></td>
-  <td><a href="Samples/AdvancedCasting">Advanced casting</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/AdvancedCasting">Advanced casting</a></td>
   <td><a href="Samples/AudioCategory">Audio categories</a></td>
   <td><a href="Samples/AudioCreation">Audio graphs</a></td>
-  <td><a href="Samples/BackgroundMediaPlayback">Background media playback</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/BackgroundMediaPlayback">Background media playback</a></td>
   <td><a href="Samples/CameraStarterKit">Basic camera app</a></td>
   <td><a href="Samples/BasicFaceDetection">Basic face detection</a></td>
-  <td><a href="Samples/BasicFaceTracking">Basic face tracking</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/BasicFaceTracking">Basic face tracking</a></td>
   <td><a href="Samples/BasicMediaCasting">Basic media casting</a></td>
   <td><a href="Samples/CameraFaceDetection">Camera face detection</a></td>
-  <td><a href="Samples/CameraFrames">Camera frames</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/CameraFrames">Camera frames</a></td>
   <td><a href="Samples/CameraGetPreviewFrame">Camera preview frame</a></td>
   <td><a href="Samples/CameraProfile">Camera profiles</a></td>
-  <td><a href="Samples/CameraResolution">Camera resolution</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/CameraResolution">Camera resolution</a></td>
+  <td><a href="Samples/CameraStreamCoordinateMapper">Camera stream coordinate mapper</a></td>
   <td><a href="Samples/CameraStreamCorrelation">Camera stream correlation</a></td>
+ </tr>
+ <tr>
   <td><a href="Samples/LiveDash">DASH streaming</a></td>
   <td><a href="Samples/D2DPhotoAdjustment">Direct2D photo adjustment</a></td>
+  <td><a href="Samples/MediaEditing">Media editing</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/MediaEditing">Media editing</a></td>
   <td><a href="Samples/MediaImport">Media import</a></td>
   <td><a href="Samples/XamlCustomMediaTransportControls">Media transport controls</a></td>
+  <td><a href="Samples/MIDI">MIDI</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/MIDI">MIDI</a></td>
   <td><a href="Samples/Playlists">Playlists</a></td>
   <td><a href="Samples/PlayReady">PlayReady</a></td>
+  <td><a href="Samples/CameraOpenCV">Processing frames with OpenCV</a></td>
  </tr>
  <tr>
   <td><a href="Samples/SimpleImaging">Simple imaging</a></td>
@@ -146,9 +151,11 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  <tr>
   <td><a href="Samples/Appointments">Appointment calendar</a></td>
   <td><a href="Samples/ContactCards">Contact cards</a></td>
-  <td><a href="Samples/ContactPicker">Contact picker</a></td>
+  <td><a href="Samples/ContactPanel">Contact panel</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/ContactPicker">Contact picker</a></td>
+  <td><a href="Samples/MyPeopleNotifications">My People notifications</a></td>
   <td><a href="Samples/UserDataAccountManager">UserDataAccountManager</a></td>
  </tr>
 </table>
@@ -159,50 +166,45 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  <tr>
   <td><a href="Samples/3DPrinting">3D Printing</a></td>
   <td><a href="Samples/3DPrintingFromUnity">3D Printing from Unity</a></td>
-  <td><a href="Samples/XamlAutoSuggestBox">AutoSuggestBox</a></td>
+  <td><a href="Samples/XamlBottomUpList">Bottom-up list (XAML)</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlBottomUpList">Bottom-up list (XAML)</a></td>
   <td><a href="Samples/Clipboard">Clipboard</a></td>
   <td><a href="Samples/DWriteColorGlyph">Colored glyphs (DirectWrite)</a></td>
+  <td><a href="Samples/XamlCommanding">Commanding</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlCommanding">Commanding</a></td>
   <td><a href="Samples/ContextMenu">Context menu</a></td>
   <td><a href="Samples/XamlContextMenu">Context menu (XAML)</a></td>
+  <td><a href="Samples/CustomEditControl">Custom text edit control</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/CustomEditControl">Custom text edit control</a></td>
   <td><a href="Samples/XamlDataVirtualization">Data virtualization</a></td>
   <td><a href="Samples/UserSelection">Disabling selection</a></td>
+  <td><a href="Samples/DisplayOrientation">Display orientation</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/DisplayOrientation">Display orientation</a></td>
   <td><a href="Samples/DWriteTextLayoutCloudFont">Downloadable fonts (DirectWrite)</a></td>
   <td><a href="Samples/XamlCloudFontIntegration">Downloadable fonts (XAML)</a></td>
+  <td><a href="Samples/XamlDragAndDrop">Drag and drop</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlDragAndDrop">Drag and drop</a></td>
   <td><a href="Samples/XamlFocusVisuals">Focus visuals</a></td>
   <td><a href="Samples/FullScreenMode">Full screen mode</a></td>
+  <td><a href="Samples/XamlGamepadNavigation">Gamepad-style navigation (XAML)</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlGamepadNavigation">Gamepad-style navigation (XAML)</a></td>
   <td><a href="Samples/DWriteLineSpacingModes">Line spacing (DirectWrite)</a></td>
   <td><a href="Samples/XamlListView">ListView and GridView</a></td>
+  <td><a href="Samples/LockScreenApps">Lock screen apps</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/LockScreenApps">Lock screen apps</a></td>
   <td><a href="Samples/MessageDialog">Message dialog</a></td>
   <td><a href="Samples/MultipleViews">Multiple views</a></td>
- </tr>
- <tr>
   <td><a href="Samples/OCR">OCR</a></td>
-  <td><a href="Samples/Printing">Printing</a></td>
-  <td><a href="Samples/XamlPullToRefresh">Pull-to-refresh</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlResponsiveTechniques">Responsiveness techniques</a></td>
+  <td><a href="Samples/Printing">Printing</a></td>
   <td><a href="Samples/DpiScaling">Scaling according to DPI</a></td>
   <td><a href="Samples/SplashScreen">Splash screen</a></td>
  </tr>
@@ -212,12 +214,11 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
   <td><a href="Samples/TitleBar">Title bar</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlTreeView">TreeView (XAML)</a></td>
-  <td><a href="Samples/XamlUIBasics">UI basics (XAML)</a></td>
+  <td><a href="https://github.com/Microsoft/Xaml-Controls-Gallery">UI basics (XAML)</a></td>
   <td><a href="Samples/UserInteractionMode">User interaction mode</a></td>
+  <td><a href="Samples/WebView">WebView control (HTML)</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/WebView">WebView control (HTML)</a></td>
   <td><a href="Samples/XamlWebView">WebView control (XAML)</a></td>
   <td><a href="Samples/ResizeAppView">Window resizing</a></td>
  </tr>
@@ -229,7 +230,7 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  <tr>
   <td><a href="Samples/BasicInput">Basic input</a></td>
   <td><a href="Samples/ComplexInk">Complex inking</a></td>
-  <td><a href="Samples/InkAnalysis">Ink analysis/a></td>
+  <td><a href="Samples/InkAnalysis">Ink analysis</a></td>
  </tr>
  <tr>
   <td><a href="Samples/Ink">Inking</a></td>
@@ -278,6 +279,7 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  <tr>
   <td><a href="Samples/ShareSource">Sharing content source app</a></td>
   <td><a href="Samples/ShareTarget">Sharing content target app</a></td>
+  <td><a href="Samples/UserActivity">User activities</a></td>
  </tr>
 </table>
 
@@ -296,51 +298,55 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  </tr>
  <tr>
   <td><a href="Samples/BarcodeScanner">Barcode scanner</a></td>
+  <td><a href="Samples/BarcodeScannerProvider">Barcode scanner provider</a></td>
   <td><a href="Samples/Barometer">Barometer</a></td>
+ </tr>
+ <tr>
   <td><a href="Samples/BluetoothAdvertisement">Bluetooth advertisement</a></td>
- </tr>
- <tr>
-  <td><a href="Samples/BluetoothLEClient">Bluetooth Low Energy client</a></td>
+  <td><a href="Samples/BluetoothLE">Bluetooth Low Energy</a></td>
   <td><a href="Samples/CashDrawer">Cash drawer</a></td>
-  <td><a href="Samples/Compass">Compass</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/Compass">Compass</a></td>
   <td><a href="Samples/CustomHidDeviceAccess">Custom HID device</a></td>
   <td><a href="Samples/CustomSensors">Custom sensors</a></td>
-  <td><a href="Samples/CustomSerialDeviceAccess">Custom serial device</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/CustomSerialDeviceAccess">Custom serial device</a></td>
   <td><a href="Samples/CustomUsbDeviceAccess">Custom USB device</a></td>
   <td><a href="Samples/DeviceEnumerationAndPairing">Device enumeration and pairing</a></td>
-  <td><a href="Samples/IoT-GPIO">General Purpose Input/Output (GPIO)</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/IoT-GPIO">General Purpose Input/Output (GPIO)</a></td>
   <td><a href="Samples/Gyrometer">Gyrometer</a></td>
   <td><a href="Samples/Inclinometer">Inclinometer</a></td>
-  <td><a href="Samples/IoT-I2C">Inter-Integrated Circuit (I2C)</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/IoT-I2C">Inter-Integrated Circuit (I2C)</a></td>
   <td><a href="Samples/LampDevice">Lamp device</a></td>
   <td><a href="Samples/LightSensor">Light sensor</a></td>
-  <td><a href="Samples/MagneticStripeReader">Magnetic stripe reader</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/Magnetometer">Magnetometer</a></td>
+  <td><a href="Samples/MagneticStripeReader">Magnetic stripe reader</a></td>
   <td><a href="Samples/Nfc">Near field communication (NFC)</a></td>
+ </tr>
+ <tr>
   <td><a href="Samples/NfcProvisioner">NFC enterprise provisioner</a></td>
   <td><a href="Samples/OrientationSensor">Orientation sensor</a></td>
+  <td><a href="Samples/Pedometer">Pedometer</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/Pedometer">Pedometer</a></td>
   <td><a href="Samples/PosPrinter">POS printer</a></td>
   <td><a href="Samples/ProximitySensor">Proximity sensor</a></td>
+  <td><a href="Samples/RadialController">Radial controller</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/RadialController">Radial controller</a></td>
   <td><a href="Samples/RelativeInclinometer">Relative inclinometer</a></td>
   <td><a href="Samples/SerialArduino">Serial Arduino</a></td>
+  <td><a href="Samples/IoT-SPI">Serial Peripheral Interface (SPI)</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/IoT-SPI">Serial Peripheral Interface (SPI)</a></td>
   <td><a href="Samples/SimpleOrientationSensor">Simple orientation sensor</a></td>
  </tr>
 </table>
@@ -359,7 +365,6 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
   <td><a href="Samples/FolderEnumeration">Folder enumeration</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/HomeGroup">HomeGroup</a></td>
   <td><a href="Samples/LibraryManagement">Library management</a></td>
   <td><a href="Samples/SemanticTextQuery">Semantic text query</a></td>
  </tr>
@@ -408,16 +413,16 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  </tr>
  <tr>
   <td><a href="Samples/CompositionVisual">Composition visual without framework</a></td>
+  <td><a href="Samples/D2AdvancedColorImages">Direct2D advanced color image rendering</a></td>
   <td><a href="Samples/D2DCustomEffects">Direct2D custom image effects</a></td>
-  <td><a href="Samples/D2DGradientMesh">Direct2D gradient mesh</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/D2DGradientMesh">Direct2D gradient mesh</a></td>
   <td><a href="Samples/D2DSvgImage">Direct2D SVG image rendering</a></td>
   <td><a href="Samples/EfficientAnimations">Efficient animations (HTML)</a></td>
-  <td><a href="Samples/XamlTransform3DAnimations">Transform3D animations</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlTransform3DParallax">Transform3D parallax</a></td>
+  <td><a href="Samples/XamlTransform3DAnimations">Transform3D animations</a></td>
  </tr>
 </table>
 
@@ -425,17 +430,21 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
 
 <table>
  <tr>
-  <td><a href="Samples/HolographicDepthBasedImageStabilization">Depth-based focus plane</a></td>
+  <td><a href="Samples/BasicHologram">Basic hologram</a></td>
   <td><a href="Samples/HolographicFaceTracking">Holographic face tracking</a></td>
   <td><a href="Samples/HolographicMixedRealityCapture">Holographic mixed reality capture</a></td>
  </tr>
  <tr>
   <td><a href="Samples/HolographicSpatialMapping">Holographic spatial mapping</a></td>
+  <td><a href="Samples/HolographicSpatialStage">Holographic spatial stage</a></td>
   <td><a href="Samples/HolographicVoiceInput">Holographic voice input</a></td>
-  <td><a href="Samples/SpatialInteractionSource">Spatial interaction source</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/SpatialInteractionSource">Spatial interaction source</a></td>
   <td><a href="Samples/HolographicTagAlong">Tag-along hologram</a></td>
+ </tr>
+ <tr>
+  <td><a href="Samples/MixedRealityModel">Mixed Reality Model</a></td>
  </tr>
 </table>
 
@@ -479,6 +488,7 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  </tr>
  <tr>
   <td><a href="Samples/ExtendedExecution">Extended execution</a></td>
+  <td><a href="https://aka.ms/Kcrqst">Multi-instance apps</a></td>
   <td><a href="Samples/BasicSuspension">Suspend and resume</a></td>
  </tr>
 </table>
@@ -499,10 +509,9 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
  <tr>
   <td><a href="Samples/BackButton">Back Button</a></td>
   <td><a href="Samples/XamlMasterDetail">Master/detail</a></td>
-  <td><a href="Samples/XamlNavigation">Navigation menu (XAML)</a></td>
+  <td><a href="Samples/XamlPivot">Pivot</a></td>
  </tr>
  <tr>
-  <td><a href="Samples/XamlPivot">Pivot</a></td>
   <td><a href="Samples/Projection">Projection</a></td>
   <td><a href="Samples/PackagedContent">XHR, handling navigation errors, and URL schemes</a></td>
  </tr>
@@ -537,6 +546,7 @@ For additional Windows samples, see [Windows on GitHub](http://microsoft.github.
   <td><a href="Samples/WiFiDirectServices">Wi-Fi Direct services</a></td>
  </tr>
  <tr>
+  <td><a href="Samples/HotspotAuthentication">Wi-Fi hotspot authentication</a></td>
   <td><a href="Samples/WiFiScan">Wi-Fi scanning</a></td>
  </tr>
 </table>

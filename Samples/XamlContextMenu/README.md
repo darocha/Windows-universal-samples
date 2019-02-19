@@ -1,3 +1,13 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+products:
+- windows
+- uwp
+---
+
 <!---
   category: ControlsLayoutAndText
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620021
@@ -5,7 +15,7 @@
 
 # Context menu (XAML) sample
 
-Shows how to create context menus experiences in UWP apps.
+Shows how to create context menu experiences in UWP apps.
 
 > **Note:** This sample is part of a large collection of UWP feature samples. 
 > If you are unfamiliar with Git and GitHub, you can download the entire collection as a 
